@@ -1,12 +1,27 @@
-# React + Vite
+# 💼 melgesoperations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto é o início de um sonho. Começou como um hobby pessoal para colocar em prática tudo que venho aprendendo sobre desenvolvimento web e criar um espaço onde posso compartilhar minha trajetória profissional, acadêmica e pessoal.
 
-Currently, two official plugins are available:
+A ideia é simples: um site que mostre quem sou, os projetos em que trabalho e as ideias que quero dividir com o mundo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No futuro, o objetivo é transformar esse espaço em algo mais profissional — um verdadeiro portfólio onde também poderei oferecer serviços e produtos relacionados à consultoria, melhoria contínua, análise de dados, tecnologia e muito mais.
 
-## Expanding the ESLint configuration
+## 🚧 Status do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Em desenvolvimento! Estou aprendendo e construindo tudo aos poucos, testando, ajustando e evoluindo o site com o tempo.
+
+## 💡 Tecnologias utilizadas
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (nível iniciante e em evolução)
+- Git e GitHub
+
+## 📌 Motivação
+
+Mais do que um site, este projeto é um reflexo do meu processo de aprendizado e de como acredito que a tecnologia, a organização e a melhoria contínua podem ajudar pessoas e empresas a evoluírem com mais eficiência e leveza.
+
+---
+
+Sinta-se à vontade para acompanhar, sugerir e, quem sabe, colaborar. 😄
