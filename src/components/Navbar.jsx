@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="bg-blue-900 text-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-semibold">Melges Operations</h1>
+        <h1 className="text-2xl font-semibold">Melges Intelligence</h1>
         <div className="space-x-2">
           <Link to="/" className={linkClass('/')}>Home</Link>
           <Link to="/quem-sou-eu" className={linkClass('/quem-sou-eu')}>Quem sou eu?</Link>

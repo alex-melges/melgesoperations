@@ -1,12 +1,85 @@
+import React from "react";
+import {
+  UserCog,
+  BrainCircuit,
+  BarChart3,
+  Sparkles,
+} from "lucide-react";
+
 function Home() {
   return (
-    <div className="p-8 text-center">
-      <h1 className="text-4xl font-bold mb-4 text-blue-900">Bem-vindo ao meu portfólio!</h1>
-      <p className="text-lg text-gray-700">
-        Aqui você encontra minha trajetória, projetos, blogs e formas de contato. Sinta-se em casa!
-      </p>
-    </div>
-  )
+    <main className="px-6 py-10 max-w-5xl mx-auto text-gray-800">
+      {/* Cabeçalho */}
+      <header className="mb-12 text-center">
+        <h1 className="text-4xl font-bold text-indigo-700">
+          Bem-vindos à Melges Intelligence
+        </h1>
+        <p className="text-lg mt-2 text-gray-600">
+          Consultoria em IA, Dados e Excelência Operacional
+        </p>
+      </header>
+
+      {/* Seção de Apresentação */}
+      <section className="mb-12">
+        <hgroup className="flex items-center gap-2 mb-4">
+          <UserCog className="text-indigo-600" />
+        </hgroup>
+
+        <article className="space-y-4 text-justify leading-relaxed">
+          <p>
+            Prazer, meu nome é Alex Melges Barbosa, sou Doutor em Matemática com sólida atuação em gestão de produtos,
+            projetos e dados em empresas de tecnologia, principalmente no setor
+            financeiro. Nos últimos anos, assumi cargos que exigem pensamento
+            analítico, liderança técnica, visão estratégica e entrega contínua
+            de valor.
+          </p>
+          <p>
+            Tenho experiência com desenvolvimento de produtos digitais,
+            melhoria de processos, análise de dados e construção de soluções
+            orientadas por tecnologia.
+          </p>
+          <p>
+            Estou em transição para atuar de forma mais direta com Ciência de
+            Dados e Inteligência Artificial. Para isso, venho combinando minha
+            base matemática com especializações em dados e experiência prática
+            em projetos que envolvem automação, integração de sistemas, análise
+            de métricas e uso de dados para tomada de decisão.
+          </p>
+          <p>
+            Acredito que meu diferencial está em integrar a visão técnica e a
+            de negócios, sempre com foco em impacto real.
+          </p>
+        </article>
+      </section>
+
+      {/* Destaques Profissionais */}
+      <section className="space-y-6">
+        <h2 className="text-2xl font-semibold flex items-center gap-2 text-gray-800">
+          <Sparkles className="text-indigo-600" />
+          Principais Diferenciais
+        </h2>
+
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <BrainCircuit className="text-indigo-500 mt-1" />
+            <span>
+              <strong>Fundamento técnico sólido:</strong> Especialização em
+              matemática aplicada e estatística para construção de soluções com
+              IA.
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <BarChart3 className="text-indigo-500 mt-1" />
+            <span>
+              <strong>Visão orientada a dados e valor:</strong> Experiência com
+              produtos, dados e otimização de processos em ambientes de alta
+              complexidade.
+            </span>
+          </li>
+        </ul>
+      </section>
+    </main>
+  );
 }
 
-export default Home
+export default Home;
