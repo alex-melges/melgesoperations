@@ -22,7 +22,9 @@ const Contato = () => {
           <li>
             📱 <strong>Celular:</strong>{' '}
             <a
-              href="tel:+5519997230578"
+              href="https://api.whatsapp.com/send?phone=5519997230578"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
               +55 (19) 99723-0578
@@ -48,6 +50,17 @@ const Contato = () => {
               className="text-blue-600 hover:underline"
             >
               @alex_melges
+            </a>
+          </li>
+          <li>
+            🖥️ <strong>GitHub:</strong>{' '}
+            <a
+              href="https://github.com/alex-melges"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              github.com/alex-melges
             </a>
           </li>
         </ul>

@@ -5,24 +5,28 @@ import {
   BarChart3,
   Sparkles,
 } from "lucide-react";
+import logo from "../assets/Logo_Melges_Intelligence.png";
 
 function Home() {
   return (
-    <main className="px-6 py-10 max-w-5xl mx-auto text-gray-800">
-      {/* Cabeçalho */}
-      <header className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-indigo-700">
+    <main className="bg-fundo text-cinzaClaro min-h-screen font-sans px-6 py-10">
+      {/* Cabeçalho com logo */}
+      <header className="mb-12 flex flex-col items-center text-center">
+          <center>
+            <img src={logo} alt="Logo Melges Intelligence" className="h-12 w-auto mb-4" />
+          </center>
+        <h1 className="text-4xl font-bold text-brancoPuro">
           Bem-vindos à Melges Intelligence
         </h1>
-        <p className="text-lg mt-2 text-gray-600">
+        <p className="text-lg mt-2 text-azulClaro">
           Consultoria em IA, Dados e Excelência Operacional
         </p>
       </header>
 
       {/* Seção de Apresentação */}
-      <section className="mb-12">
-        <hgroup className="flex items-center gap-2 mb-4">
-          <UserCog className="text-indigo-600" />
+      <section className="mb-12 max-w-4xl mx-auto">
+        <hgroup className="flex items-center gap-2 mb-4 text-azulClaro">
+          <UserCog />
         </hgroup>
 
         <article className="space-y-4 text-justify leading-relaxed">
@@ -53,15 +57,15 @@ function Home() {
       </section>
 
       {/* Destaques Profissionais */}
-      <section className="space-y-6">
-        <h2 className="text-2xl font-semibold flex items-center gap-2 text-gray-800">
-          <Sparkles className="text-indigo-600" />
+      <section className="space-y-6 max-w-4xl mx-auto">
+        <h2 className="text-2xl font-semibold flex items-center gap-2 text-brancoPuro">
+          <Sparkles className="text-azulClaro" />
           Principais Diferenciais
         </h2>
 
         <ul className="space-y-4">
           <li className="flex items-start gap-3">
-            <BrainCircuit className="text-indigo-500 mt-1" />
+            <BrainCircuit className="text-azulClaro mt-1" />
             <span>
               <strong>Fundamento técnico sólido:</strong> Especialização em
               matemática aplicada e estatística para construção de soluções com
@@ -69,7 +73,7 @@ function Home() {
             </span>
           </li>
           <li className="flex items-start gap-3">
-            <BarChart3 className="text-indigo-500 mt-1" />
+            <BarChart3 className="text-azulClaro mt-1" />
             <span>
               <strong>Visão orientada a dados e valor:</strong> Experiência com
               produtos, dados e otimização de processos em ambientes de alta
